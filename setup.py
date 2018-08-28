@@ -13,7 +13,7 @@ setup(
     packages=find_packages(),
     include_package_data=True,
     license='BSD License',  # example license
-    description='A simple Django app enable custom behavior for remote user authentication',
+    description='A simple Django app to enable custom behavior for remote user authentication',
     long_description=README,
     url='https://github.com/HassanKadhem',
     author='Hassan Kadhem',
