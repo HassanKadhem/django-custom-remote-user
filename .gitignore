@@ -1,0 +1,4 @@
+
+build/*
+dist/*
+django_custom_remote_user.egg-info/*
