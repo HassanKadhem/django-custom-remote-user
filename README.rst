@@ -32,9 +32,9 @@ Quick start
 
 3. Add the required middlewares for remote user authentication::
 
-   MIDDLEWARE = [
-        '...',
+    MIDDLEWARE = [
+        ...
         'django.contrib.auth.middleware.AuthenticationMiddleware',
         'django.contrib.auth.middleware.RemoteUserMiddleware',
-        '...',
-   ]
+        ...
+    ]
