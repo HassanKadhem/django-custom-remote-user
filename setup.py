@@ -9,21 +9,21 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
     name='django-custom-remote-user',
-    version='0.2',
+    version='0.3',
     packages=find_packages(),
     include_package_data=True,
-    license='BSD License',  # example license
+    license='MIT License',  
     description='A simple Django app to enable custom behavior for remote user authentication',
     long_description=README,
-    url='https://github.com/HassanKadhem',
+    url='https://github.com/HassanKadhem/django-custom-remote-user',
     author='Hassan Kadhem',
     author_email='hassan.kadhem@gmail.com',
     classifiers=[
         'Environment :: Web Environment',
         'Framework :: Django',
-        'Framework :: Django :: 1.10',  # replace "X.Y" as appropriate
+        'Framework :: Django :: 1.10', 
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: BSD License',  # example license
+        'License :: OSI Approved :: MIT License', 
         'Operating System :: OS Independent',
         'Programming Language :: Python',
         'Programming Language :: Python :: 3.4',
